@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\LessonController;
 use App\Http\Controllers\admin\StudentController;
 use App\Http\Controllers\admin\TeacherController;
 use Illuminate\Support\Facades\Route;
@@ -21,8 +22,9 @@ Route::middleware('auth')->group(function () {
         return view('welcome');
     });
     Route::get('teachers', [TeacherController::class, 'index'])->name('admin-teacher-list');
-
     Route::get('students', [StudentController::class, 'index'])->name('admin-student-list');
+    Route::post('teacher-attach', [LessonController::class, 'teacher_attach'])->name('teacher-attach');
+    Route::get('lesson-get', [LessonController::class, 'lesson_get'])->name('lesson-get');
 
 });
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e33377d5fc08156e225194e3b457aa4c",
+    "content-hash": "f2cbd3833dbc2f30626a63098b8c20c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -495,26 +495,23 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.5.1",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6"
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/83b609028194aa042ea33b5af2d41a7427de80e6",
-                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=4.8 <=9"
-            },
-            "suggest": {
-                "paragonie/sodium_compat": "Support EdDSA (Ed25519) signatures when libsodium is not present"
+                "phpunit/phpunit": " 4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -540,15 +537,11 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "keywords": [
-                "jwt",
-                "php"
-            ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v5.5.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v5.0.0"
             },
-            "time": "2021-11-08T20:18:51+00:00"
+            "time": "2017-06-27T22:17:23+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
@@ -3014,64 +3007,6 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.11.2"
             },
             "time": "2022-02-28T15:28:54+00:00"
-        },
-        {
-            "name": "rakibdevs/openweather-laravel-api",
-            "version": "v1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rakibdevs/openweather-laravel-api.git",
-                "reference": "cb00cc2d9c9fdaae2c3dd62c5753d1df4a267c8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rakibdevs/openweather-laravel-api/zipball/cb00cc2d9c9fdaae2c3dd62c5753d1df4a267c8a",
-                "reference": "cb00cc2d9c9fdaae2c3dd62c5753d1df4a267c8a",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.3|^7.0",
-                "php": "^7.2|^7.3|^7.4|^8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.0|^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "RakibDevs\\Weather\\WeatherServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "RakibDevs\\Weather\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Md. Rakibul Islam",
-                    "email": "rakib1708@gmail.com",
-                    "homepage": "https://rakibul.dev"
-                }
-            ],
-            "description": "Laravel package to connect https://openweathermap.org/ to get customized weather data for any location on the globe immediately",
-            "keywords": [
-                "api",
-                "laravel",
-                "open-weather",
-                "weather"
-            ],
-            "support": {
-                "issues": "https://github.com/rakibdevs/openweather-laravel-api/issues",
-                "source": "https://github.com/rakibdevs/openweather-laravel-api/tree/v1.5"
-            },
-            "time": "2021-08-02T12:34:46+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -8492,5 +8427,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }

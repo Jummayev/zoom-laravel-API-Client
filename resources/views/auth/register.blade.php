@@ -42,8 +42,8 @@
                             <div class="form-group">
                                 <select name="role" class="form-control form-control-lg" id="exampleFormControlSelect2">
                                     <option value="">Role</option>
-                                    <option value="mentor">Mentor</option>
-                                    <option value="mentee">mentee</option>
+                                    <option value="teacher">Teacher</option>
+                                    <option value="student">Student</option>
                                 </select>
                             </div>
                             <div class="form-group">

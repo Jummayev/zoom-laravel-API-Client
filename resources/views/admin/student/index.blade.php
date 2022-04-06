@@ -1,5 +1,11 @@
 @extends('dashboard.app')
-
+@section('styles')
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+        rel="stylesheet"
+    />
+@endsection
 @section('content')
     @role('admin')
     <div class="col-lg-12 grid-margin stretch-card">
@@ -29,7 +35,9 @@
                                     $ 77.99
                                 </td>
                                 <td>
-                                    May 15, 2015
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Attach
+                                    </button>
                                 </td>
                             </tr>
                         @endforeach

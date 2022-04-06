@@ -17,6 +17,7 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('avatar')->nullable();
             $table->integer('phone_number')->nullable()->unique()->unsigned();
             $table->string('telegram_username')->nullable()->unique();
             $table->integer('telegram_id')->nullable()->unique();
